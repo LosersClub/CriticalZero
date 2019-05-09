@@ -1,0 +1,12 @@
+{
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "editor.minimap.maxColumn": 120,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build/": true,
+    "**/coverage/": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true
+}

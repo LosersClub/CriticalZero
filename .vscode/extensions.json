@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "orta.vscode-jest",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

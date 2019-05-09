@@ -1,0 +1,34 @@
+
+# Created by https://www.gitignore.io/api/node,visualstudio
+# Edit at https://www.gitignore.io/?templates=node,visualstudio
+
+
+# dependencies
+node_modules/
+packages/*/package-lock.json
+packages/*/yarn.lock
+
+# build and test
+build/
+coverage/
+*.tsbuildinfo
+
+# logs
+yarn-error.log
+npm-debug.log
+lerna-debug.log
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# misc
+.DS_Store
+._*
