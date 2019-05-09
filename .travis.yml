@@ -13,3 +13,5 @@ script:
   - yarn build
   - yarn lint
   - yarn test
+after_success:
+  - yarn codecov

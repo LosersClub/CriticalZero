@@ -4,7 +4,8 @@
     "build": "tsc -b",
     "build:watch": "tsc -b -w",
     "test": "jest",
-    "lint": "lerna run --stream lint"
+    "lint": "lerna run --stream lint",
+    "codecov": "codecov"
   },
   "workspaces": [
     "packages/*"
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.13.7",
+    "codecov": "^3.3.0",
     "jest": "^24.7.1",
     "lerna": "^3.13.4",
     "ts-jest": "^24.0.2",
